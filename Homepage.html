@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!----------------header section------------------------->
+    <header class="nav">  
+    <header class="nav">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>GreenTech</h1>
+            <button class="menu-toggle">MENU</button>
+        </div>
+
+       
+      
+       <ul class="nav-links">
+        <li><a href="Homepage.html">HOME</a></li>
+        <li><a href="ServicesPage.html">SERVICES</a></li>
+        <li><a href="AboutPage.html">ABOUT US</a></li>
+       </ul>
+    </header>
+    <!-----------------main content  page------------------------>
+    <main class="main">
+      <h1>HOME PAGE</h1>
+
+     <section>
+       <h1> A Greentech company </h1> 
+       <p>It was founded for a purpose, whether that is reducing CO2 emissions or pollution, minimising waste or protecting the world’s ecosystems. 
+        Greentech companies use science-based technology, ideas and methodologies to solve the biggest challenges the global community faces. Their business models are sustainable financially, socially and environmentally.
+        Profit is generated as a means to sustain and scale the business and its positive impact on the planet. 
+        An awareness of greenwashing and a commitment to honest communication is central to Greentech companies. Communications should educate and inspire, encouraging a move towards sustainable systems. Greentech companies lead by example, reducing their own carbon footprint as much as possible and offsetting when necessary.
+      </p>
+    </section>
+    </main>
+    <!--------------------footer--------------------->
+    <footer>
+        <p>&copy; 2024 GreenTech. All rights reserved.</p>
+        <p>Designed by <a href="https://ke.linkedin.com/">Josphat Baraka Mramba</a></p>
+        <ul class="links">
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://twitter.com/?lang=en">X</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+           </ul>
+
+    </footer>
+
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const menuToggle = document.querySelector('.menu-toggle');
+                const navLinks = document.querySelector('.nav-links');
+            
+                menuToggle.addEventListener('click', function() {
+                    navLinks.classList.toggle('show');
+                });
+            });
+        </script>
+
+</body>
+</html>

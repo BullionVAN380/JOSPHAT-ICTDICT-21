@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServicesPage</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!----------------header section------------------------->
+
+    <header class="nav">
+        <header class="nav">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+                <h1>GreenTech</h1>
+                <button class="menu-toggle">MENU</button>
+            </div>
+          
+
+        <ul class="nav-links">
+         <li><a href="Homepage.html">HOME</a></li>
+         <li><a href="ServicesPage.html">SERVICES</a></li>
+         <li><a href="AboutPage.html">ABOUT US</a></li>
+        </ul>
+     </header>
+    <!-----------------main content  page------------------------>
+
+     <main class="main">
+        <h1>SERVICES PAGE</h1>
+
+        <div class="serviceSection">
+            <h1>Services</h1>
+            <li>Prevew Maintenance</li>
+            <hr>
+            <li>Monitering</li>
+            <hr>
+            <li>Incident Management</li>
+            <hr>
+            <li>Perfomance Analysis</li>
+            <hr>
+            <li>Monthly Report</li>
+            <hr>
+
+        </div>
+      </main>
+      <!--------------------footer--------------------->
+      <footer>
+        <p>&copy; 2024 GreenTech. All rights reserved.</p>
+        <p>Designed by <a href="https://ke.linkedin.com/">Josphat Baraka Mramba</a></p>
+        <ul class="links">
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://twitter.com/?lang=en">X</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+           </ul>
+ 
+      </footer>
+
+     <!------------------------script for hiding and show menu-------------------->
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+        
+            menuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+    
+</body>
+</html>

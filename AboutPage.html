@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutPage</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!----------------header section------------------------->
+
+    <header class="nav">
+        <header class="nav">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+                <h1>GreenTech</h1>
+                <button class="menu-toggle">MENU</button>
+            </div>
+           
+        <ul class="nav-links">
+         <li><a href="Homepage.html">HOME</a></li>
+         <li><a href="ServicesPage.html">SERVICES</a></li>
+         <li><a href="AboutPage.html">ABOUT US</a></li>
+        </ul>
+     </header>
+    <!-----------------main content  page------------------------>
+
+     <main class="main">
+        <h1>ABOUT PAGE</h1>
+        
+            <h1> About us</h1>
+            <p>Specialist for the operation of photovoltaic systems
+greentec services gmbh is a specialised service provider in the technical management of photovoltaic systems. The company currently operates around 180 ground- and roof-mounted systems with a peak power of approximately 240 MWp.
+We have grown rapidly in recent years. Consistent with the tougher requirements of our customers across nine different European countries, we have continuously expanded our infrastructure and network of partners in order to establish our high standards of quality across the board.
+Today, we offer investors and owners of PV systems all the technical, commercial and administrative services that help your renewable energy investment thrive.
+Our well-qualified employees ensure with technical expertise, attention to detail and proactive action the highest degree of quality, safety and performance in the systems entrusted to us.
+With greentec services at your side, you minimize time effort and maximize profit of your PV investment.
+If you are interested in a reliable and robust operation of your PV power system with maximum yield, but are not yet sure how to achieve this ideal scenario, we should have a conversation. We look forward to hearing from you!
+        </p>
+      </main>
+    <!--------------------footer--------------------->
+    <footer>
+        <p>&copy; 2024 GreenTech. All rights reserved.</p>
+        <p>Designed by <a href="https://ke.linkedin.com/">Josphat Baraka Mramba</a></p>
+        <ul class="links">
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://twitter.com/?lang=en">X</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+           
+           </ul>
+ 
+    </footer>
+    <!------------------------script for hiding and show menu-------------------->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+        
+            menuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
